@@ -1,0 +1,101 @@
+@media only screen and (max-width: 1024px) {
+  .header {
+    width: 100%;
+    height: 100vh;
+  }
+  .header .navigation .navbar .navbar__nav a {
+    margin-left: 5px;
+  }
+  .header .navigation .navbar .nav__icon a {
+    margin-left: 5px;
+  }
+  .navigation__add .navbar .navbar__nav a {
+    margin-left: 5px;
+  }
+  .navigation__add .navbar .nav__icon a {
+    margin-left: 5px;
+  }
+  .footer__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header {
+    height: 100%;
+  }
+  .header .navigation .navbar .navbar__nav a {
+    display: none;
+  }
+  .header .navigation .navbar .nav__icon a {
+    margin-left: 15px;
+  }
+  .navigation__add .navbar .navbar__nav a {
+    display: none;
+  }
+  .navigation__add .navbar .nav__icon a {
+    margin-left: 15px;
+  }
+  .header .navigation {
+    position: relative;
+    top: 0;
+  }
+  .header .banner {
+    position: relative;
+    height: 100%;
+    transform: translate(0%, 0%);
+    left: 0%;
+    top: 0%;
+  }
+  .banner__content {
+    grid-template-columns: 1fr;
+  }
+  .cours__content,
+  .about__content,
+  .blog__content,
+  .testimonial__content,
+  .footer__content {
+    grid-template-columns: 1fr;
+  }
+  .map {
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr;
+  }
+  .map .map__item h2 {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 468px) {
+  .header .navigation .navbar .nav__icon a {
+    display: none;
+  }
+  .navigation__add .navbar .nav__icon a {
+    display: none;
+  }
+  .banner__content .banner__item h1 {
+    color: #fff;
+    font-family: var(--barbi);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .banner__content .banner__item button {
+    margin-left: 0px;
+    margin-top: 1rem;
+  }
+  .consuting .title {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .footer form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  .footer form input {
+    width: 100%;
+    margin-top: 1rem;
+    height: 6vh;
+  }
+}/*# sourceMappingURL=responsive.css.map */
